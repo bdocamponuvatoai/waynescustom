@@ -1,3 +1,43 @@
-import Planner from '../../components/site/Planner';
-export const metadata={title:'Plan your next move',description:'Prepare a clear vehicle project or towing summary for Wayne’s Customs. This preview does not submit service requests.'};
-export default function Contact(){return <main id="main" className="section contact-page"><div className="contact-intro"><p className="eyebrow">MAKE THE FIRST CONVERSATION COUNT.</p><h1>WHAT’S<br/>YOUR NEXT<br/><em>MOVE?</em></h1><p>Get the details together. Save your notes. Be ready to talk about your vehicle.</p><img src="/assets/wheel.webp" alt="Illustrative custom wheel and graphite bodywork" width="1536" height="1024"/><div className="contact-status"><span>BEFORE YOU REACH OUT</span><p>Phone, address, hours, and service area are awaiting confirmation. This preview cannot accept live bookings or towing dispatches.</p></div></div><Planner/></main>}
+import type { Metadata } from "next";
+import Image from "next/image";
+import Planner from "@/components/site/Planner";
+import { images } from "@/content/images";
+
+export const metadata: Metadata = {
+  title: "Plan your next move",
+  description:
+    "Prepare a clear summary of your vehicle project or towing needs before you talk to Wayne’s Customs.",
+  alternates: { canonical: "/contact" },
+};
+
+export default function ContactPage() {
+  return (
+    <main id="main" className="section contact-page">
+      <div className="contact-intro">
+        <p className="eyebrow">MAKE THE FIRST CONVERSATION COUNT.</p>
+        <h1>
+          WHAT’S
+          <br />
+          YOUR NEXT
+          <br />
+          <em>MOVE?</em>
+        </h1>
+        <p>Get the details together. Save your notes. Be ready to talk about your vehicle.</p>
+        <Image
+          src={images.wheel}
+          alt="Illustrative custom wheel and graphite bodywork"
+          sizes="(max-width: 760px) 90vw, 45vw"
+          placeholder="blur"
+        />
+        <div className="contact-status">
+          <span>BEFORE YOU REACH OUT</span>
+          <p>
+            The planner organises your details into a summary you can copy or download. It does not
+            book appointments or dispatch a tow truck.
+          </p>
+        </div>
+      </div>
+      <Planner />
+    </main>
+  );
+}
