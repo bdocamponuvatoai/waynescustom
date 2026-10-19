@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="section notfound" id="main"><p className="eyebrow">404 / WRONG TURN.</p><h1>BACK ON<br/>TRACK.</h1><a className="button" href="/">Return home ↗</a></main>}
