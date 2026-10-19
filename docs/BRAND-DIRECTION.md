@@ -1,4 +1,5 @@
 # Driven by detail
+
 Primary palette: graphite #151515, warm white #F0EEE8, signal red #F04432.
 Identity: forward slanted angular W, confident wide wordmark, understated descriptor. Oversized condensed headline type contrasts small technical captions.
 Photography: physically realistic graphite vehicle surfaces, machined metals, clean believable working environments, restrained red detail. Full-width editorial sections alternate with functional service content.
