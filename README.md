@@ -29,15 +29,15 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-| Script                 | Purpose                                  |
-| ---------------------- | ---------------------------------------- |
-| `npm run dev`          | Dev server with Turbopack and hot reload |
-| `npm run build`        | Production build                         |
-| `npm run start`        | Serve the production build locally       |
-| `npm run lint`         | ESLint (Next.js core-web-vitals rules)   |
-| `npm run typecheck`    | TypeScript, no emit                      |
-| `npm run format`       | Prettier, write                          |
-| `npm run format:check` | Prettier, check only (use in CI)         |
+| Script                 | Purpose                                     |
+| ---------------------- | ------------------------------------------- |
+| `npm run dev`          | Dev server with Turbopack and hot reload    |
+| `npm run build`        | Production build                            |
+| `npm run start`        | Serve the production build locally          |
+| `npm run lint`         | ESLint (Next.js core-web-vitals rules)      |
+| `npm run typecheck`    | Generate Next.js types, then run TypeScript |
+| `npm run format`       | Prettier, write                             |
+| `npm run format:check` | Prettier, check only (use in CI)            |
 
 Before opening a pull request, run `npm run lint && npm run typecheck && npm run build`.
 
