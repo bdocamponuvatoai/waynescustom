@@ -1,5 +1,14 @@
 # Wayne’s Customs Automotive and Towing
-Private brand preview for a business named by the owner. Content covers custom automotive project planning, vehicle care conversations and towing preparation.
-Contact details, location, opening hours, service area and exact service scope are unconfirmed.
-The request planner creates local notes only. It does not transmit requests or dispatch towing.
-Pages: /, /services/customs, /services/automotive, /services/towing, /contact.
+
+> Automotive business offering custom automotive work, vehicle care and towing.
+
+Location, phone number, opening hours and service area are not published on this site yet.
+The contact page helps visitors prepare a written summary of their request; it does not book appointments or dispatch towing.
+
+## Pages
+
+- [Home](/): overview of services, approach and frequently asked questions
+- [Custom automotive](/services/customs)
+- [Automotive care](/services/automotive)
+- [Towing](/services/towing)
+- [Plan your next move](/contact): request summary planner
